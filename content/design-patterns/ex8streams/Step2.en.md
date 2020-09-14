@@ -5,7 +5,7 @@ weight = 2
 +++
 
 
-We have pre-created the IAM role `DDBReplicationRole` that will be used as the [AWS Lambda Execution Role](https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html). This IAM role allows provides several permissions to the AWS Lambda function we will need to replicate data.
+We have pre-created the IAM role `DDBReplicationRole` that will be used as the [AWS Lambda Execution Role](https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html). This IAM role provides several permissions to the AWS Lambda function we will need to replicate data.
 
 Review the following policy which is attached to the IAM role `DDBReplicationRole`.
 ```json
